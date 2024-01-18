@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="hun">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="Szaloki Klaudia" content="webshop">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Webshop</title>
+
+
+</head>
+<body>
+    <main class="container-fluid">
+        <header class="row">
+            <h1 class="header-title mt-5">Webáruház</h1>
+        </header>
+
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Kezdőlap</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Galéria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Mérettáblázat</a>
+              </li>
+            </ul>
+        </nav>
+        
+        <div class="row mt-3">
+            <!-- Bal menüsáv -->
+            <aside class="col-sm-2 A">
+                    <dt class="mt-1">Keresési feltételek</dt>
+                    <p>Termék neve:</p>
+                <div class="row">
+                    <input type="text" class="form-control" id="email" placeholder="A termék neve" name="email">
+                </div>
+                <div class="row AS">
+                    <label for="customRange1" class="form-label">Szűrés ár szerint</label>
+                    <input type="range" class="form-range" id="customRange1">
+                </div>
+            </aside>
+
+            <!-- Galéria -->
+            <section class="col-sm-6 B">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header mb-1">
+                                <h6 class="text-success fw-semibold">Retró póló</h6>
+                            </div>
+                            <div class="card-img-top p-3">
+                                <img src="./kepek/shirt1.jpg" class="border border-3 border-secondary-subtle" alt="shirt1">
+                            </div>
+                            <div class="sizes ms-3">
+                                <input type="radio" class="btn-check" name="options-outlined1" id="success-outlined1" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined1">S</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined1" id="success-outlined2" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined2">M</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined1" id="success-outlined3" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined3">L</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined1" id="success-outlined4" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined4">XL</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined1" id="success-outlined5" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined5">XXL</label>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa vero quos tenetur reprehenderi.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary me-4">Ár: 10.000 Ft</small>
+                                <a href="#" class="btn btn-success text-warning px-4">Kosárba</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header mb-1">
+                                <h6 class="text-success fw-semibold">Retró póló</h6>
+                            </div>
+                            <div class="card-img-top p-3">
+                                <img src="./kepek/shirt2.jpg" class="border border-3 border-secondary-subtle" alt="shirt2">
+                            </div>
+                            <div class="sizes ms-3">
+                                <input type="radio" class="btn-check" name="options-outlined2" id="success-outlined6" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined6">S</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined2" id="success-outlined7" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined7">M</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined2" id="success-outlined8" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined8">L</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined2" id="success-outlined9" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined9">XL</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined2" id="success-outlined10" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined10">XXL</label>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa vero quos tenetur reprehenderi.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary me-4">Ár: 10.000 Ft</small>
+                                <a href="#" class="btn btn-success text-warning px-4">Kosárba</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header mb-1">
+                                <h6 class="text-success fw-semibold">Retró póló</h6>
+                            </div>
+                            <div class="card-img-top p-3">
+                                <img src="./kepek/shirt3.jpg" class="border border-3 border-secondary-subtle" alt="shirt3">
+                            </div>
+                            <div class="sizes ms-3">
+                                <input type="radio" class="btn-check" name="options-outlined3" id="success-outlined11" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined11">S</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined3" id="success-outlined12" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined12">M</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined3" id="success-outlined13" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined13">L</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined3" id="success-outlined14" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined14">XL</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined3" id="success-outlined15" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined15">XXL</label>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa vero quos tenetur reprehenderi.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary me-4">Ár: 10.000 Ft</small>
+                                <a href="#" class="btn btn-success text-warning px-4">Kosárba</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header mb-1">
+                                <h6 class="text-success fw-semibold">Retró póló</h6>
+                            </div>
+                            <div class="card-img-top p-3">
+                                <img src="./kepek/shirt4.jpg" class="border border-3 border-secondary-subtle" alt="shirt4">
+                            </div>
+                            <div class="sizes ms-3">
+                                <input type="radio" class="btn-check" name="options-outlined4" id="success-outlined16" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined16">S</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined4" id="success-outlined17" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined17">M</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined4" id="success-outlined18" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined18">L</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined4" id="success-outlined19" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined19">XL</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined4" id="success-outlined20" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined20">XXL</label>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa vero quos tenetur reprehenderi.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary me-4">Ár: 10.000 Ft</small>
+                                <a href="#" class="btn btn-success text-warning px-4">Kosárba</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header mb-1">
+                                <h6 class="text-success fw-semibold">Retró póló</h6>
+                            </div>
+                            <div class="card-img-top p-3">
+                                <img src="./kepek/shirt5.jpg" class="border border-3 border-secondary-subtle" alt="shirt5">
+                            </div>
+                            <div class="sizes ms-3">
+                                <input type="radio" class="btn-check" name="options-outlined5" id="success-outlined21" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined21">S</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined5" id="success-outlined22" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined22">M</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined5" id="success-outlined23" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined23">L</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined5" id="success-outlined24" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined24">XL</label>
+
+                                <input type="radio" class="btn-check" name="options-outlined5" id="success-outlined25" autocomplete="off">
+                                <label class="btn btn-sm btn-outline-success" for="success-outlined25">XXL</label>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa vero quos tenetur reprehenderi.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary me-4">Ár: 10.000 Ft</small>
+                                <a href="#" class="btn btn-success text-warning px-4">Kosárba</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>         
+
+            </section>
+
+            <!-- Jobb menüsáv -->
+            <article class="col-sm-4 C">
+                <h4>Kapcsolódó cikkek</h1>
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, eaque labore. Soluta facilis impedit est?</li>
+                    <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, eaque labore. Soluta facilis impedit est?</li>
+                    <li class="list-group-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, eaque labore. Soluta facilis impedit est?</li>
+                </ol>
+
+                <div class="card border-light mb-3" style="max-width: 40rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Kapcsolódó cikkek</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus in omnis commodi quidem, rem quae id obcaecati possimus, repellendus inventore dolorum exercitationem. Nobis porro illo nemo sint numquam unde optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa iste nobis eum soluta, quibusdam suscipit vero odit nisi perferendis, incidunt culpa deleniti. Nulla consequuntur mollitia necessitatibus sed alias? Repellendus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium iste repellat nesciunt aperiam omnis alias quasi, enim incidunt recusandae dignissimos cupiditate minima perspiciatis consectetur fugit commodi porro repellendus nulla possimus.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+       
+
+        <footer class="row mt-5">
+            <h5>Szalóki Klaudia</h5>
+        </footer>
+
+    </main>
+
+
+
+    
+</body>
+</html>
